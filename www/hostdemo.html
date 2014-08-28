@@ -1,0 +1,212 @@
+<head>
+	<link href="hostdemo.css" rel="stylesheet" type="text/css">
+    <script src="../libcui/libcui_generator.js"></script>
+</head>
+<body>
+	<div id="menu_page">
+		<div class="root" id="root">
+		</div>
+
+		<div class="background" id="main">
+			<div class="menu_title">Media Centre</div>
+			<div class="menu">
+					<ul class="menu_list">
+						<li class="menu_list_item" link="m_photos_source">Gallery</li>
+						<li class="menu_list_item" link="m_music_source">Music</li>
+						<li class="menu_list_item" link="m_system_source">System</li>                                                
+						<li class="menu_list_item" link="m_video_source">Video</li>
+						<li class="menu_list_item disabled" link="m_games_source">Games</li>
+						<li class="menu_list_item" link="settings">Settings</li>
+					</ul>
+                        </div>
+                </div>
+		<div class="background" id="m_music_source">
+			<div class="menu_title">Music</div>
+			<div class="menu">
+				<ul class="menu_list" name="a_source">
+                                        <li class="menu_list_item" link="focus" value="Bossa Nova">Bossa Nova</li>
+					<li class="menu_list_item" link="focus" value="The Duel">The Duel</li>
+					<li class="menu_list_item" link="focus" value="November">November</li>
+					<li class="menu_list_item" link="focus" value="Jazz Piano">Jazz Piano</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+			<div class="button validate disabled" link="save"></div>
+		</div>
+		<div class="background" id="m_system_source">
+			<div class="menu_title">System</div>
+                        <input class="checkbox" type="checkbox" link="save" id="led_on" ><label class="checkbox label">LD9</label>                        
+			<div class="button left_arrow" link="back"></div>
+		</div>
+		<div class="background" id="m_video_source">
+			<div class="menu_title">Video</div>
+			<div class="menu">
+				<ul class="menu_list" name="v_source">
+					<li class="menu_list_item" link="focus" value="Big Buck HD">Big Buck HD</li>
+					<li class="menu_list_item" link="focus" value="Big Buck SD">Big Buck SD</li>
+                                        <li class="menu_list_item" link="focus" value="Supernova">Supernova</li>
+					<li class="menu_list_item" link="focus" value="Exoplanet">Exoplanet</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+			<div class="button validate disabled" link="save"></div>
+		</div>
+		<div class="background" id="m_photos_source">
+			<div class="menu_title">Gallery</div>
+			<div class="menu">
+				<ul class="menu_list" name="p_source">
+					<li class="menu_list_item" link="m_photos_source_1" value="Fomalhaut">Fomalhaut</li>
+					<li class="menu_list_item" link="m_photos_source_2" value="NGC 1433">NGC 1433</li>
+                                        <li class="menu_list_item" link="m_photos_source_3" value="NGC 4605">NGC 4605</li>
+					<li class="menu_list_item" link="m_photos_source_4" value="Hubble">Hubble</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+		<div class="background" id="m_photos_source_1">
+                        <div class="gallery fomalhaut" link="back"></div>
+			<div class="credit_note">
+                        Artist's concept of the star Fomalhaut and the Jupiter-type planet that the Hubble Space Telescope observed. A ring of debris appears to surround Fomalhaut as well. The planet, called Fomalhaut b, orbits the 200-million-year-old star every 872 years. Credit: ESA, NASA, and L. Calcada (ESO for STScI)
+			</div>
+		</div>
+		<div class="background" id="m_photos_source_3">
+                        <div class="gallery galaxy" link="back"></div>
+			<div class="credit_note">
+                        This bundle of bright stars and dark dust is a dwarf spiral galaxy known as NGC 4605, located around 16 million light-years away in the constellation of Ursa Major (The Great Bear). Credit: ESA/Hubble and NASA, Acknowledgements: D. Calzetti (UMass) and the LEGUS Team.
+			</div>
+		</div>
+		<div class="background" id="m_photos_source_2">
+                        <div class="gallery spiral" link="back"></div>
+			<div class="credit_note">
+                        Hubble Sees a Galaxy With a Glowing Heart This view, captured by the NASA/ESA Hubble Space Telescope, shows a nearby spiral galaxy known as NGC 1433. Credit: ESA/Hubble and NASA, Acknowledgements: D. Calzetti (UMass) and the LEGUS Team.                        
+			</div>
+		</div>
+		<div class="background" id="m_photos_source_4">
+                        <div class="gallery hubble" link="back"></div>
+			<div class="credit_note">
+                        This photograph of NASA's Hubble Space Telescope was taken on the second servicing mission to the observatory in 1997. Servicing Mission 2, flown by Discovery in February 1997, replaced the GHRS and the FOS with the Space Telescope Imaging Spectrograph (STIS) and the Near Infrared Camera and Multi-Object Spectrometer (NICMOS). Credit: NASA. 
+			</div>
+                </div>
+		<div class="background" id="m_music_play">
+                        <div class="gallery bensound" link="back" id="a_source"></div>
+			<div class="credit_note">
+                        Credit: Music from http://www.bensound.com Composed and performed by Bensound. The music on Bensound.com is licensed under a Creative Commons Attribution-NoDerivs 3.0 Unported License. 
+			</div>
+                </div>
+                
+		<div class="background" id="settings">
+			<div class="menu_title">Settings</div>
+			<div class="menu">
+				<ul class="menu_list">
+					<li class="menu_list_item" link="network">Network</li>
+					<li class="menu_list_item" link="firmware">
+						<div>Firmware</div><div>Update</div></li>
+					<li class="menu_list_item" link="tools">Tools</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+
+		<div class="background" id="network">
+			<div class="menu_title">Network</div>
+			<div class="menu">
+				<ul class="menu_list">
+					<li class="menu_list_item" link="net_dhcp">
+						<div>DHCP</div>
+						<div class="menu_value" id="net_dhcp_active">Active</div>
+					</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+
+		<div class="background" id="firmware">
+			<div class="menu">
+                
+			<div class="menu_title">Firmware</div>
+			<div class="input_form_label">
+				<div>Version</div>
+				<div class="current value" id="firmware_version">1405191636</div>
+			</div>
+				<div class="firmware_filename" id="firmware_filename">avnetzed-1405191636.taz</div>
+				<div class="button_pad">
+					<div class="button inline up_arrow" link="cmsg ui.up"></div>
+					<div class="button inline down_arrow disabled" link="cmsg ui.down">&nbsp;</div>
+				</div>
+			<div>
+			</div>
+				<ul class="menu_list">
+					<li class="menu_list_item" id="firmware.scan" link="cmsg firmware.scan">Scan</li>
+					<li class="menu_list_item disabled" id="firmware.upgrade" link="cmsg firmware.upgrade">Update</li>
+				</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+
+		<div class="background" id="firmware_update">
+
+			<div class="menu_title">Upgrading...</div>
+			<div class="input_form_label">
+				<div class="current value" id="firmware_filename">1405191636</div>
+			</div>
+			<div class="running_log" id="update_running_log">
+				Update Log
+			</div>
+			<div class="page_note">
+				&#x26a0 Do not turn off the device during the upgrade process, the unit will
+				reboot as soon as the process has completed.
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+
+		<div class="background" id="tools">
+			<div class="menu_title">Tools</div>
+			<div class="menu">
+					<ul class="menu_list">
+						<li class="menu_list_item"
+							link='cmsg txui.lua.load txui.lua'><div>LUA</div><div>Reload</div></li>
+						<li class="menu_list_item disabled" link="firmware_upgrade">Future</li>
+						<li class="menu_list_item " link="cmsg system.reboot">Reboot</li>
+					</ul>
+			</div>
+			<div class="button left_arrow" link="back"></div>
+		</div>
+
+
+		<div class="background ignore" id="class_dumping_ground">
+			<div class="menu">
+				<ul class="menu_list">
+					<li class="menu_list_item">Normal</li>
+					<li class="menu_list_item disabled">Disabled</li>
+					<li class="menu_list_item focus">Focus</li>
+				</ul>
+			</div>
+			<form class="input_form" name="ignore_form">
+				<input class="checkbox" type="checkbox"
+						value="0" /><label class="checkbox label">Off</label>
+				<input class="checkbox checked" type="checkbox"
+						value="1" /><label class="checkbox label">On</label>
+			</form>
+			<div class="button left_arrow" link="back"></div>
+			<div class="button left_arrow disabled" link="back"></div>
+			<div class="button validate disabled" ></div>
+			<div class="button validate" style="left:100px"></div>
+					<div class="button inline up_arrow" link="cmsg ui.up"></div>
+					<div class="button inline up_arrow disabled" link="cmsg ui.down">&nbsp;</div>
+					<div class="button inline down_arrow" link="cmsg ui.up"></div>
+					<div class="button inline down_arrow disabled" link="cmsg ui.down">&nbsp;</div>
+		</div>
+	</div>
+	<div id="input_classes">
+		<div>Decimal:</div><div class="input_class" id="decimal">0,1,2,3,4,5,6,7,8,9</div>
+		<div>Bandwidth:</div><div class="input_class" id="bandwidth">1.7,5,6,7,8,10,12,16,20</div>
+	</div>
+	<form id="buttons"><br/>
+		<input type="button" onclick="formSubmit()" value="Generate Code"/>
+		<div class="generated_label" style="color:black">Generated:</div>
+		<textarea rows="20" cols="80" id="generated">Click the "Generate Code" button.
+You can test the formatting by using http://www.bodurov.com/JsonFormatter/</textarea>
+	</form>
+
+
+</body>
